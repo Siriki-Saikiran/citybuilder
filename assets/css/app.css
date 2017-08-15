@@ -4852,11 +4852,14 @@ footer {
      width: 90%;
      display: block;
       text-shadow: 2px 2px 2px rgba(100,100,100,0.3);
-       color: rgba(120,0,120,0.9);
+       color: rgba(120,0,120,0.9) !important;
       /*border-bottom: 1px solid rgba(1,90,1,0.08);*/
       border-length: 0 0 15px 0;
       border-radius: 10px;
       text-align:center;
+        font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
  }
  
   .contact-title {

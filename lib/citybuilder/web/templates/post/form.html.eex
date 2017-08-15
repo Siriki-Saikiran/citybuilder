@@ -41,7 +41,7 @@
     <h3 class="done-so-far-instructions"> Have you collected materials + researched the subject?</h1>
       <h3 class="done-so-far-instructions">You have 3 spaces. Let people know where you are.</h3>
       </div>
-         <h1 class="progress-title spinner">Progress to date </h1>
+         <h1 class="progress-title spinner container">Progress to date </h1>
          
          
          <!-- FIRST DONE SO FAR BOX-->
@@ -77,11 +77,13 @@
   
   
          <!-- FIRST TEXT -->
+         <p class ="done-so-far-text-one">
       <div>
     <%= label f, :done_so_far_one, class: "control-label done-so-far-text-one" %>
-    <%= textarea f, :done_so_far_one, class: "form-control done-so-far-text-one", placeholder: "The first thing you did."  %>
-    <%= error_tag f, :done_so_far_one %>
+    <%= textarea f, :done_so_far_one, class: "form-control-done-so-far-text done-so-far-text-one", placeholder: "The first thing you did."  %>
+    <%= error_tag f, :done_so_far_one %> </p>
   </div>
+ 
   
   <!-- SECOND DONE SO FAR BOX -->
   
